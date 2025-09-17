@@ -10,7 +10,7 @@ const Experience = () => {
     },
     {
       title: "Web Developer Intern",
-      company: "AMITKK Digital Solutions | March 2025 - April 2025",
+      company: "OASIS INFOBYTE | March 2025 - April 2025",
       work: "Working as a Frontend Developer focusing on building dynamic, scalable, and responsive web applications. The projects I have contributed to are listed in the Projects section above.",
     },
   ];
