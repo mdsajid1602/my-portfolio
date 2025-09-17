@@ -6,7 +6,7 @@ const Experience = () => {
     {
       title: "Frontend Developer Intern",
       company: "AMITKK Digital Solutions | May 2025 – July 2025",
-      work: "Working as a Frontend Developer focusing on building dynamic, scalable, and responsive web applications. The projects I have contributed to are listed in the Projects section above.",
+      work: "Working as a Frontend Developer and I designed reusable React components to improve UI efficiency and user experience. Additionally, I created and optimized MongoDB schemas, ensuring scalability, performance, and data consistency for application workflows and backend operations.",
     },
     {
       title: "Web Developer Intern",
