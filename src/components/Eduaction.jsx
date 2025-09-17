@@ -11,7 +11,7 @@ export default function Education() {
     {
       degree: "12th Grade",
       year: "[76.20%]  2018 - 2020",
-      institute: "M.K.Colege Darbhanga",
+      institute: "M.K.College Darbhanga",
     },
     {
       degree: "10th Grade",
