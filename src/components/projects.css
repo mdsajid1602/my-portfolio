@@ -1,0 +1,131 @@
+/* File: projects.css */
+
+/* Section wrapper */
+
+.pc-section {
+  padding: 2rem;
+  background: #1f2937;
+  display: flex;
+  flex-direction: column; /* ✅ stack vertically */
+  align-items: center;    /* ✅ heading center aur container center */
+}
+
+/* Heading */
+.pc-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  color: orange;
+  margin-top: 50px;
+}
+
+/* Cards container */
+.pc-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1200px; /* ✅ cards row me centered */
+} 
+
+/* Individual Card */
+.pc-card {
+  background: #c8c7c7;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+}
+
+.pc-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Image */
+.pc-image-wrap {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: rgb(26, 26, 26);
+  overflow: hidden;
+}
+
+.pc-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Card body */
+.pc-body {
+  padding: 1rem;
+  flex: 1;
+}
+
+.pc-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.pc-desc {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* Footer with buttons */
+.pc-footer {
+  padding: 1rem;
+  display: flex;
+  gap: 0.6rem;
+  border-top: 1px solid #eee;
+}
+
+.pc-btn {
+  padding: 0.5rem 0.9rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+/* GitHub button */
+.pc-btn-outline {
+  border: 1px solid #333;
+  color: #333;
+  background: transparent;
+}
+
+.pc-btn-outline:hover {
+  background: #2b87f0;
+  color: white;
+}
+
+/* Live demo button */
+.pc-btn-primary {
+  background: #2b87f0;
+  color: #fff;
+  border: 1px solid #2b87f0;
+}
+
+.pc-btn-primary:hover {
+  background: #2b87f0;
+
+}
+
+/* Responsive breakpoints */
+@media (max-width: 992px) {
+  .pc-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .pc-container {
+    grid-template-columns: 1fr;
+  }
+}

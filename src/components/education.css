@@ -1,0 +1,94 @@
+.edu-section {
+  padding: 2rem; 
+background: #1b1b1c;
+}
+
+
+.edu-heading {
+text-align: center;
+font-size: 2rem;
+font-weight: 700;
+margin-bottom: 3rem;
+color: orange;
+margin-top: 50px;
+}
+
+
+/* Container for timeline */
+.edu-container {
+position: relative;
+max-width: 600px;
+margin: 0 auto;
+padding-left: 40px; /* space for vertical line */
+}
+
+
+/* Vertical line */
+.edu-line {
+position: absolute;
+left: 16px; /* line position from left */
+top: 0;
+bottom: 0;
+width: 4px;
+background: orange;
+}
+
+
+/* Individual edu item */
+.edu-item {
+position: relative;
+margin-bottom: 2rem;
+}
+
+
+/* Circle on line */
+.edu-circle {
+width: 16px;
+height: 16px;
+background: orange;
+border-radius: 50%;
+position: absolute;
+left: 8px; /* center of vertical line */
+top: 0.5rem; /* adjust as needed */
+transform: translateY(0);
+}
+
+
+/* Content box */
+.edu-content {
+padding-left: 2rem; /* space between line and content */
+text-align: left;
+}
+
+
+.edu-degree {
+font-size: 1.1rem;
+font-weight: 600;
+color: white;
+margin: 0 0 0.2rem 0;
+}
+
+
+.edu-year {
+font-size: 0.95rem;
+color: #fff;
+}
+
+
+.edu-institute {
+font-size: 0.95rem;
+margin: 0.2rem 0 0 0;
+color: #fff;
+opacity: .7;
+}
+
+
+/* Responsive */
+@media (max-width: 480px) {
+.edu-container {
+padding-left: 30px;
+}
+.edu-circle {
+left: 6px;
+}
+}
