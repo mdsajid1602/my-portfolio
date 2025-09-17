@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
-import "./Navbar.css";
+import "./navbar.css";
 import { Link } from "react-scroll";
 
 export default function Navbar() {
