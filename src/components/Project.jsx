@@ -8,24 +8,24 @@ export default function Projects() {
 const projects = [
 {
 image: "/Planning.png",
-name: "Project One",
-description: "This is a short description of project one.",
-github: "https://github.com/yourname/project-one",
-live: "https://your-live-link-one.com",
+name: "Event Planning",
+description: "This is a minor MERN Stack event Planning Project.",
+github: "https://github.com/mdsajid1602",
+live: "https://github.com/mdsajid1602",
 },
 {
 image: "/restaurant.png",
-name: "Project Two",
-description: "This is a short description of project two.",
-github: "https://github.com/yourname/project-two",
-live: "https://your-live-link-two.com",
+name: "Restro-Bar",
+description: "A full stack project based on restaurant management system.",
+github: "https://github.com/mdsajid1602",
+live: "https://github.com/mdsajid1602",
 },
 {
 image: "/Task.png",
-name: "Project Three",
-description: "This is a short description of project three.",
-github: "https://github.com/yourname/project-three",
-live: "https://your-live-link-three.com",
+name: "TaskApp",
+description: "A MERN Stack Task App full CRUD operated",
+github: "https://github.com/mdsajid1602/TaskApp",
+live: "https://github.com/mdsajid1602/TaskApp",
 },
 ];
 

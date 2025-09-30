@@ -10,16 +10,16 @@ const Footer = () => {
     <div className='footer'>
       <div className="right"> © 2025 Md Sajid. All rights reserved.</div>
       <div className='profile'>
-        <a href="">
+        <a href="https://github.com/mdsajid1602">
           <FaGithub />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/md-sajid-b9273a229/">
           <FaLinkedin />
         </a>
-        <a href="">
+        <a href="https://leetcode.com/u/mdsajid123/">
           <SiLeetcode />
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/ss_sajid_1602_____/">
           <FaInstagramSquare />
         </a>
       </div>
